@@ -13,8 +13,9 @@ class TwitchBotUI:
     def __init__(self, root):
         twitchio.utils.setup_logging(level=logging.INFO)
         self.root = root
-        self.root.title("Twitch Bot UI")
+        self.root.title("Rains Democracy Bot")
         self.root.geometry("600x500")
+        self.root.iconbitmap("rains_slime.ico")
 
         self._create_tabs()
 
